@@ -31,4 +31,4 @@ RUN git clone https://github.com/1N3/Sn1per.git \
     && ./install.sh \
     && sniper -u force
 
-CMD ["sniper"]
+CMD ["sniper -t aseelapp.com -m web"]
